@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(240, 242, 245);
+}
+
+.Cabeçalho{
+    display: flex;
+    align-content: flex-start;
+}
+
+.imagem{
+    height: 100px;
+    padding: 0px 0px 0px 809px;
+    margin-top: 5px;
+}
+
+.principal{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.Sessão{
+    height: 575px;
+    width: 431px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    border:  1.4px solid rgb(231, 233, 236);
+}
+
+.Divisão{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Título{
+    font-family: Arial;
+    font-size: 25px;
+    height: 32px;
+    padding: 14px 1px 0px 0px;
+}
+
+.Parágrafo{
+    font-family: Helvetica;
+    font-size: 15px;
+    height: 24px;
+    color: #606770;
+    padding-top: 15px;
+    padding-right: 1px;
+}
+
+.div-b{
+    border-bottom: 1.4px solid rgb(218, 221, 225);
+    padding-top: 20px;
+}
+
+.div-inp1{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    margin-bottom: 14px;
+    gap: 13px;
+}
+
+.nome{
+    height: 40px;
+    border-radius: 5px;
+    border: 1.4px solid rgb(204, 208, 213);
+    font-size: 14px;
+    padding-left: 14px;
+    padding-right: 25px ;
+}
+
+.nome::-webkit-input-placeholder{
+    font-family: Helvetica;
+    font-size: 15px;
+    height: 16px;
+    color: #8d949e;
+}
+
+.Sobrenome{
+    height: 40px;
+    border-radius: 5px;
+    border: 1.4px solid rgb(204, 208, 213);
+    font-size: 14px;
+    padding-left: 14px;
+    padding-right: 25px;
+}
+
+.sobrenome::-webkit-input-placeholder{
+    font-family: Helvetica;
+    font-size: 15px;
+    height: 16px;
+    color: #8d949e;
+}
+
+.div-inp2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px 0px;
+}
+
+.email{
+    height: 40px;
+    border-radius: 5px;
+    border: 1.4px solid rgb(205, 213, 204);
+    font-size: 14px;
+    padding-left: 14px;
+    width: 400px;
+}
+
+.email::-webkit-input-placeholder{
+    font-family: Helvetica;
+    font-size: 15px;
+    height: 16px;
+    color: #8d949e;
+}
+
+.Senha{
+    height: 40px;
+    border-radius: 5px;
+    border: 1.4px solid rgb(205, 213, 204);
+    font-size: 14px;
+    padding-left: 14px;
+    width: 400px;
+}
+
+.Senha::-webkit-input-placeholder{
+    font-family: Helvetica;
+    font-size: 15px;
+    height: 16px;
+    color: #8d949e;
+}
+
+.div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.DN{
+    padding: 14px 0px 21px 16px ;
+    font-family: Helvetica;
+    font-size: 12px;
+    height: 20px;
+    color: #606770;
+}
+
+.Interrogação{
+    color: rgb(249, 249 ,249);
+    background-color: rgb(96, 101, 112);
+    font-size: 10px;
+    height: 13px;
+    border-radius: 50%;
+    padding: 0px 1px 0px 1px;
+}
+
+.div-data{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.Dia{
+    width: 162px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1.4px solid rgb(205, 213, 204);
+    margin-left: 16px;
+    font-size: 15px;
+}
+
+.Mês{
+    width: 162px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1.4px solid rgb(205, 213, 204);
+    font-size: 15px;
+}
+
+.Ano{
+    width: 162px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1.4px solid rgb(205, 213, 204);
+    margin-right: 16px;
+    font-size: 15px;
+    font-family: Helvetica;
+}
+
+.DG{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.G{
+    padding: 14px 0px 20px 16px ;
+    font-family: Helvetica;
+    font-size: 12px;
+    height: 20px;
+    color: #606770;
+}
+
+.Div-gen{
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+    gap: 13px;
+}
+
+.sec{
+    display: flex;
+    border: 1.4px solid rgb(205, 213, 204);
+    padding: 8px 10px 8px 8px;
+    border-radius: 5px;
+}
+
+.Gen{
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #1c1e21;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.in1{
+    margin-top: 2px;
+    margin-left: 16px;   
+}
+
+.sec2{
+    display: flex;
+    flex-direction: row;
+    border: 1.4px solid rgb(205, 213, 204);
+    padding: 8px 10px 8px 8px;
+    border-radius: 5px;
+}
+
+.in2{
+    margin-top: 2px;
+    margin-left: 14px;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: row;
+    border: 1.4px solid rgb(205, 213, 204);
+    padding: 8px 10px 8px 8px;
+    border-radius: 5px;
+}
+
+.in3{
+    margin-top: 2px;
+    margin-left: 16px;
+}
+
+.div-p{
+    margin-top: 10px;
+    margin-left: 17px;
+}
+
+.p{
+    font-family: Helvetica;
+    font-size: 11px;
+    line-height: 14.7px;
+    color: #777777;
+}
+
+.a{
+    color: #385898;
+}
+
+
+
+.Div-botão{
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.botão{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.7px;
+    color: #FFFFFF;
+    background-color: rgb(0, 164, 0);
+    border: 1.4px solid rgb(16, 170, 16);
+    border-radius: 5px;
+    padding: 5px 45px 5px 45px;
+}
+
+.Div-a{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.â{
+    font-family: Helvetica;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgb(24, 119, 242);
+    border-color:rgb(141, 188, 249)
+}
+
+.Sessão-Rodapé{
+    margin-top: 47px;
+    width:auto;
+    height: 245px;
+    background-color: white;
+}
+
+
+.lang{
+    font-family: Helvetica;
+    font-size: 12px;
+    line-height: 16.1px;
+    color: rgb(88, 106, 157);
+    display: flex;
+    margin: 0px 0px 0px 461px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.l-lang{
+    color: rgb(88, 106, 157);
+
+}
+
+.sec-b{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.b-lang{
+    font-size: 20px;
+    height: 19px;
+    width: 25px;
+}
+
+.PB{
+    font-size: 20px;
+    background-color: #f5f6f7;
+    border: 1.4px solid rgb(205, 213, 204);
+    padding: 1px 8px 0px 8px;
+}
+
+.bor{
+    border-bottom: 1.4px solid rgb(205, 213, 204);
+    margin: 7px 475px 0px 462px;
+}
+
+.opt-ext{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 19.2px;
+    padding-right: 34px;
+    font-family: Helvetica;
+    padding-top: 7px;
+}
+
+.a-ext{
+    color: rgb(88, 106, 157);
+
+}
+
+.opt-ext2{
+    display: flex;
+    gap: 21px;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 19.2px;
+    padding-left: 6px;
+    font-family: Helvetica;
+}
+.a-ext2{
+    color: rgb(88, 106, 157);
+
+}
+
+.opt-ext3{
+    display: flex; 
+    font-size: 12px;
+    line-height: 19.2px;
+    padding-left: 462px;
+    font-family: Helvetica;
+    padding-bottom: 22px;
+}
+
+.a-ext3{
+    padding-right: 20px;
+    color: rgb(88, 106, 157);
+}
+
+.img-opt{
+    padding-top: 2px;
+    padding-right: 20px;
+    height: 17px;
+}
+
+.fin-div{
+    padding-left: 462px;
+}
+
+.p-fin{
+    font-size: 11px;
+    font-family: Helvetica;
+    color: #737373;
+}
+   
